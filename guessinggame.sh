@@ -10,13 +10,13 @@ user_ip
 
 while [[ $gg -ne $files ]]
 do
-    if [[ $gg -lt $files ]] 
-    then
-        echo "Your guess is higher than the number."
-    else
-        echo "Your guess is higher than the number."
-    fi
-    user_ip
+        if [[ $gg -lt $files ]] 
+        then
+            echo "Your guess is higher than the number."
+        else
+            echo "Your guess is higher than the number."
+        fi
+        user_ip
 done
 
 echo "Right choice! Here is the list of files-"
