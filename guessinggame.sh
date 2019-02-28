@@ -16,7 +16,7 @@ do
     else
         echo "Your guess is higher than the number."
     fi
-    ask
+    user_ip
 done
 
 echo "Right choice! Here is the list of files-"
